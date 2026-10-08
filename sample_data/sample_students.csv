@@ -1,0 +1,7 @@
+student_id,first_name,last_name,stage,department,semester,attendance_rate,average_score,recent_exam_score,assignment_completion,engagement_score,previous_failures
+STU-2026-801,Devon,Miller,Undergraduate,Computer Science,2,54.2,46.0,41.5,52.0,38.0,2
+STU-2026-802,Kavita,Raman,Higher Secondary,Science Stream,1,91.5,88.0,89.5,95.0,92.0,0
+STU-2026-803,Tanya,Morales,Undergraduate,Data Science,3,68.0,61.5,56.0,72.0,58.0,1
+STU-2026-804,Brian,O'Connor,School,Grade 10,1,87.0,82.0,84.0,90.0,85.0,0
+STU-2026-805,Fatima,Zahra,Undergraduate,Electrical Engineering,4,58.5,52.0,47.0,60.0,44.0,2
+STU-2026-806,Lucas,Silva,Undergraduate,Business Administration,2,94.0,91.5,93.0,98.0,94.0,0

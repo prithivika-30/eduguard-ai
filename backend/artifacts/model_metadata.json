@@ -1,0 +1,75 @@
+{
+  "active_model_name": "Gradient Boosting",
+  "version_tag": "v1.0-GradientBoosting",
+  "dataset_records_count": 1200,
+  "models": {
+    "Gradient Boosting": {
+      "model_name": "Gradient Boosting",
+      "accuracy": 0.93,
+      "precision": 0.7907,
+      "recall": 0.7391,
+      "f1_score": 0.764,
+      "roc_auc": 0.9504,
+      "feature_importances": {
+        "attendance_rate": 0.10187906753680763,
+        "average_score": 0.0604015039214341,
+        "recent_exam_score": 0.5781215941816328,
+        "assignment_completion": 0.13095338664216202,
+        "engagement_score": 0.07941159388898908,
+        "previous_failures": 0.04923285382897438
+      },
+      "trained_records": 1200
+    },
+    "Random Forest": {
+      "model_name": "Random Forest",
+      "accuracy": 0.9267,
+      "precision": 0.8,
+      "recall": 0.6957,
+      "f1_score": 0.7442,
+      "roc_auc": 0.9457,
+      "feature_importances": {
+        "attendance_rate": 0.23315723832766974,
+        "average_score": 0.15561440847033364,
+        "recent_exam_score": 0.25351828773958157,
+        "assignment_completion": 0.16336513941156572,
+        "engagement_score": 0.15500548649192872,
+        "previous_failures": 0.03933943955892061
+      },
+      "trained_records": 1200
+    },
+    "Decision Tree": {
+      "model_name": "Decision Tree",
+      "accuracy": 0.9167,
+      "precision": 0.7561,
+      "recall": 0.6739,
+      "f1_score": 0.7126,
+      "roc_auc": 0.851,
+      "feature_importances": {
+        "attendance_rate": 0.07321704229816109,
+        "average_score": 0.03659390142147031,
+        "recent_exam_score": 0.6805368214964015,
+        "assignment_completion": 0.12769682473398228,
+        "engagement_score": 0.057524903703564126,
+        "previous_failures": 0.02443050634642068
+      },
+      "trained_records": 1200
+    },
+    "Logistic Regression": {
+      "model_name": "Logistic Regression",
+      "accuracy": 0.9233,
+      "precision": 0.7805,
+      "recall": 0.6957,
+      "f1_score": 0.7356,
+      "roc_auc": 0.9538,
+      "feature_importances": {
+        "attendance_rate": 0.08816335143372109,
+        "average_score": 0.021468486580515155,
+        "recent_exam_score": 0.09079119892432522,
+        "assignment_completion": 0.04300645153800864,
+        "engagement_score": 0.0328595118404568,
+        "previous_failures": 0.7237109996829731
+      },
+      "trained_records": 1200
+    }
+  }
+}
