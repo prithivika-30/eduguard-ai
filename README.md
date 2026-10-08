@@ -25,6 +25,22 @@ DATA → DATA QUALITY → RISK PREDICTION → RISK LEVEL → CONTRIBUTING FACTOR
 
 ---
 
+## 🌐 Public Live Deployment
+
+EduGuard AI is deployed live and publicly accessible worldwide across any mobile device or desktop browser:
+
+- 📱 **Public Web Application:** [https://9a4a3f7d6eb6c3.lhr.life](https://9a4a3f7d6eb6c3.lhr.life)
+- 🔌 **Dedicated REST API & Interactive Swagger Docs:** [https://d199543f43f7d1.lhr.life/docs](https://d199543f43f7d1.lhr.life/docs)
+- 📡 **Backend Health Check:** [https://d199543f43f7d1.lhr.life/api/health](https://d199543f43f7d1.lhr.life/api/health)
+
+### Cloud Deployment Blueprints Included
+The repository contains ready-to-deploy cloud configurations:
+- `backend/Dockerfile`: Production Python container specification.
+- `render.yaml`: Infrastructure as Code (IaC) blueprint for deploying the FastAPI backend and React frontend.
+- `frontend/vercel.json`: Vercel Single-Page Application (SPA) rewrite and routing configuration.
+
+---
+
 ## 🚀 Live Demo Credentials
 
 Use the single-click **Persona Switcher** in the top navigation bar or enter credentials manually:
